@@ -1,0 +1,415 @@
+<!DOCTYPE HTML>
+<html lang="es">
+<head>
+
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <title>Pizzeria Ristorante Gió en Arenys de Mar</title>
+
+    <meta name="description"
+          content="Pizzeria Ristorante Gió en Arenys de Mar - Las mejores Pizzas y Pastas Italianas"/>
+    <meta name="keywords" content="Pizzeria, Ristorante, Gió, Arenys, Mar, Pizzas, Pastas, Italianas"/>
+    <meta name="dc.title" content="Pizzeria Ristorante Gió en Arenys de Mar"/>
+    <meta name="dc.description"
+          content="Pizzeria Ristorante Gió en Arenys de Mar - Las mejores Pizzas y Pastas Italianas"/>
+    <meta name="dc.keywords" content="Pizzeria, Ristorante, Gió, Arenys, Mar, Pizzas, Pastas, Italianas"/>
+    <meta name="dc.language" content="es">
+    <link href='http://fonts.googleapis.com/css?family=Lato:300,400,700' rel='stylesheet' type='text/css'>
+    <link rel="shortcut icon" href="/images/favicon.png"/>
+    <link rel="apple-touch-icon" href="/images/favicon.png"/>
+    <link rel="stylesheet" type="text/css" href="/css/style.css?v=000014" media="all"/>
+    <link rel="stylesheet" type="text/css" href="/include/modulos/galeria/jquery.fancybox-1.3.4.css" media="all"/>
+
+
+    <script type="text/javascript" src="/include/js/jquery-1.6.1.min.js"></script>
+    <script type="text/javascript" src="/include/js/include.js"></script>
+    <script type="text/javascript" src="/include/js/jquery.stellar.min.js"></script>
+    <script type="text/javascript" src="/include/js/iscroll.js"></script>
+    <script type="text/javascript" src="/include/js/jquery.lazyload.js"></script>
+
+
+    <!-- Base MasterSlider style sheet -->
+    <link rel="stylesheet" type="text/css" href="/css/masterslider/masterslider.css" media="all"/>
+
+    <!-- MasterSlider default skin -->
+    <link rel="stylesheet" type="text/css" href="/css/masterslider/style.css" media="all"/>
+    <script type="text/javascript" src="/css/masterslider/masterslider.min.js"></script>
+
+
+    <script>
+        var idioma_lg = "es";
+
+        function stellar_resize() {
+            if ($(window).width() <= 960) {
+                $.stellar({
+                    parallaxBackgrounds: false,
+                    horizontalScrolling: false,
+                    parallaxElements: false,
+                    responsive: false
+                });
+                console.log('<=960');
+            } else {
+                console.log('>960');
+                $.stellar({
+                    parallaxBackgrounds: true,
+                    horizontalScrolling: false,
+                    parallaxElements: true,
+                    responsive: true
+                });
+            }
+        }
+
+        $(document).ready(function () {
+            stellar_resize();
+            $(window).resize(function () {
+                stellar_resize();
+                $.stellar('refresh');
+            });
+        });
+
+    </script>
+
+
+</head>
+
+<body>
+
+
+<div id="engloba">
+    <div id="header">
+        <div class="top">
+            <div class="container">
+
+                <!--<ul id="lista_banderas">
+                    <li><a href='/es/index.html'><img src='/images/banderas/es.jpg' alt='es'></a></li></ul>-->
+                <ul id="lista_social">
+
+                </ul>
+                <div class="superior_contacto"><i class="first hidden_mob fa fa-map-marker"></i>
+                    <p class="hidden_mob">Carretera N-II, km.658, 08350 Arenys de Mar</p>
+                    <i class="fa fa-phone"></i>
+                    <p>93 792 41 34</p>
+                    <i class="fa fa-envelope"></i>
+                    <p>info@giopizzeria.com</p>
+                </div>
+            </div>
+        </div>
+
+        <!--<div id="cabecera">
+
+            <div id="cont-cabecera">
+
+                <div id="superior_logo" class="logo">
+                    <a href="/"><img src="/images/logo.png" id="Logo-JAP" alt="Logo JAP"></a>
+                </div>
+
+            </div>--><!-- cont-cabecera -->
+        <!--</div>--><!-- cabecera -->
+
+        <div id="superior" class="menu navbar">
+            <div class="superior_important">
+                <div id="superior_logo" class="logo">
+                    <a href="/"><img src="/images/logo.png" alt="Logo"></a>
+                </div>
+                <button type="button" class="navbar-toggle" onclick="$('#nav').fadeToggle('slow');">
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+
+                <ul class="nav navbar-nav l_tinynav1" id="nav">
+                    <li class='selected'><a href='/'>Inicio</a></a>
+                        <ul></ul>
+                    </li>
+                    <li><a href='/es/restaurante.html'>Restaurante</a></a>
+                        <ul></ul>
+                    </li>
+                    <li><a href='javascript:void(0)'>La Carta<span class="flecha">&#9660</span></a></a>
+                        <ul>
+                            <li><a href='/es/la-carta/antipasti.html'>Antipasti</a></li>
+                            <li><a href='/es/la-carta/ensaladas.html'>Ensaladas</a></li>
+                            <li><a href='/es/la-carta/pizzas.html'>Pizzas</a></li>
+                            <li><a href='/es/la-carta/pasta.html'>Pasta</a></li>
+                            <li><a href='/es/la-carta/carnes-y-pescados.html'>Carnes y Pescados</a></li>
+                            <li><a href='/es/la-carta/postres.html'>Postres</a></li>
+                        </ul>
+                    </li>
+                    <li><a href='/es/carta-de-vinos.html'>Carta de Vinos</a></a>
+                        <ul></ul>
+                    </li>
+                    <li><a href='/es/para-llevar-a-casa.html'>Para llevar a casa</a></a>
+                        <ul></ul>
+                    </li>
+                    <li><a href='/es/contactar.html' class='last_li_c lang_'>Contactar</a></li>
+                </ul>
+
+            </div><!-- superior_important -->
+        </div><!-- superior -->
+    </div>
+    <div id="top-page"></div>
+
+
+    <!-- masterslider -->
+
+    <script type="text/javascript">
+        var slider = new MasterSlider();
+
+        // adds Arrows navigation control to the slider.
+        slider.control('arrows', {autohide: false});
+        slider.control('timebar', {insertTo: '#masterslider'});
+        slider.control('bullets');
+
+        slider.setup('masterslider', {
+            loop: true,
+            width: 1300,
+            height: 500,
+            speed: 20,
+            autoplay: true,
+            layout: 'fillwidth'
+
+        });
+        $(document).ready(function () {
+            $('.ms-nav-prev').append('<div></div>');
+            $('.ms-nav-next').append('<div></div>');
+        });
+    </script>
+    <div id="page">
+
+        <div id="cont">
+            <div id="cont-main">
+
+                <div class="ap_home">
+                    <div class="col">
+                        <div class="image"><img src="/images/contenidos/55b71f99916e6-pizzeria-gio-restaurante-home.jpg"
+                                                alt="Pizzeria Gio Restaurante"/></div>
+                        <a href="/es/restaurante.html">
+                            <div class="content">
+                                <div class="inside">
+                                    <p class="ita-color">la carta</p>
+                                    <p class="gio"><span>GIÓ</span> en el</p>
+                                    <p class="text-right">restaurante <i class="fa fa-angle-right"></i></p>
+                                </div>
+                            </div>
+                        </a></div>
+                    <div class="col last">
+                        <div class="image"><img src="/images/contenidos/55b71fe5862c5-pizzeria-gio-para-llevar.jpg"
+                                                alt="Pizzeria Gio para llevar"/></div>
+                        <a href="/es/para-llevar-a-casa.html">
+                            <div class="content">
+                                <div class="inside">
+                                    <p class="ita-color">la carta</p>
+                                    <p class="gio"><span>GIÓ</span> para</p>
+                                    <p class="text-right">llevar a casa <i class="fa fa-angle-right"></i></p>
+                                </div>
+                            </div>
+                        </a></div>
+                </div>
+                <div class="intro">
+                    <p class="title">las mejores pizzas y pastas italianas</p>
+                    <p class="subtitle">Restaurante Pizzeria</p>
+                    <p class="other">GIÓ</p>
+                </div>
+                <div class="inner" style="padding: 40px 0 90px 0;">
+                    <div class="one_left" style="width: 65%;">
+                        <p style="text-align: center;"><img
+                                src="/images/contenidos/55b71ca303c49-pizzeria-gio-home-restaurante.jpg"
+                                alt="Pizzeria Gio Introduccion"/></p>
+                    </div>
+                    <div class="one_right parallax_texto" data-stellar-ratio="1.3">
+                        <h2 class="p_title"><span class="p_title_first">Restaurante</span>Pizzeria Gió</h2>
+                        <!--<div class="p_subtitle"></div>-->
+                        <p class="p_content">Gió Restaurante Pizzeria está situado en la Ctra. Nacional km.658 en Arenys
+                            de Mar. gracias a nuestro buen hacer y a la calidad de nuestros productos, nuestros clientes
+                            proceden de toda la provincia de Barcelona y Girona.</p>
+                        <p class="p_content">En Gió Restaurante podrá degustar los mejores pizzas y pastas elaboradas
+                            con productos italianaos de la mejor calidad.</p>
+                    </div>
+                </div>
+                <div class="intro">
+                    <p class="title" id="play_video">Como elaboramos nuestras Pizzas y Pastas</p>
+                </div>
+                <div class="ap_home">
+                    <div class="col">
+                        <div class="video">
+                            <script src="http://a.vimeocdn.com/js/froogaloop2.min.js"></script>
+                            <iframe width="100%" height="317" class="vimeo" id="player1"
+                                    src="https://player.vimeo.com/video/134710316?loop=1&amp;title=0&amp;byline=0&amp;portrait=0&amp;api=1&amp;player_id=player1"
+                                    frameborder="0" webkitallowfullscreen="webkitallowfullscreen"
+                                    mozallowfullscreen="mozallowfullscreen" allowfullscreen="allowfullscreen"></iframe>
+                        </div>
+                        <div class="contenido left">
+                            <div class="inside">
+                                <p class="title">PIZZAS</p>
+                                <p>Elaboramos nuestras pizzas de forma artesanal y con <b>productos 100% italianos</b>.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col last">
+                        <div class="video">
+                            <iframe width="100%" height="317" class="vimeo" id="player2"
+                                    src="https://player.vimeo.com/video/134729830?loop=1&amp;title=0&amp;byline=0&amp;portrait=0&amp;api=1&amp;player_id=player2"
+                                    frameborder="0" webkitallowfullscreen="webkitallowfullscreen"
+                                    mozallowfullscreen="mozallowfullscreen" allowfullscreen="allowfullscreen"></iframe>
+                        </div>
+                        <div class="contenido right">
+                            <div class="inside">
+                                <p class="title">PASTAS</p>
+                                <p>Entre las diferentes tipos de pasta que elaboramos destacamos la <b>Pappardelle al
+                                    Parmiggiano</b>.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div><!-- cont-main -->
+
+
+        </div>
+
+    </div>
+
+
+    <script type="text/javascript">
+        $(window).scroll(function () { // bind window scroll event
+            if ($('#play_video').is_on_screen()) {
+                jQuery('iframe.vimeo').each(function () {
+                    Froogaloop(this).addEvent('ready', ready);
+                });
+            }
+        });
+
+        function ready(playerID) {
+            Froogaloop(playerID).addEvent('play');
+            Froogaloop(playerID).addEvent('seek');
+            Froogaloop(playerID).api('play');
+        }
+    </script>
+
+
+    <!--<div class="cont-pie">
+    <div class="medio centro_pie">
+        <ul>        	
+            <li class="titulo_pie">Dirección</li>
+            <li>President Maçia, 124</li>
+            <li>17230 Palamós, Girona</li>
+            <li>Girona, España</li>
+        </ul>
+        <ul>
+            <li class="titulo_pie">Atención al cliente</li>
+            <li>(+34) 972 60 16 75</li>
+        </ul>
+        <ul class="quitar-imprimir">
+            <li class="titulo_pie">Mar Verd</li>
+            <li><a href='/es/aviso-legal-lopd.html'>Aviso Legal</a></li>            <li><a href='/es/aviso-legal-lopd.html'>LOPD</a></li>            <li><a href='/es/cookies.html'>Política de Cookies</a></li>                        <li></li>
+        </ul>
+        <ul class="ul-last">
+        </ul>
+    </div>
+    </div>
+    </div>-->
+    <div id="pie">
+        <div class="cont-pie">
+            <ul class="sidebar_pie">
+                <li>
+                    <p class="logo"><img src="/images/logo-invertido.png"></p>
+                </li>
+                <li>
+                    <p class="titulo_pie">Sitemap</p>
+                    <div class="content">
+                        <ul>
+                            <li><a href="/es/restaurante.html">Restaurante</a></li>
+                            <li><a href="#l">Antipasti</a></li>
+                            <li><a href="#">Ensaladas</a></li>
+                            <li><a href="/es/la-carta/pizzas.html">Pizzas</a></li>
+                            <li><a href="#">Pasta</a></li>
+                            <li><a href="/es/la-carta/carnes-y-pescados.html">Carnes y pescados</a></li>
+                            <li><a href="#">Postres</a></li>
+                            <li><a href="/es/vinos.html">Vinos</a></li>
+                            <li><a href="#">Para llevar a casa</a></li>
+                            <li><a href="/es/contactar.html">Contactar</a></li>
+                        </ul>
+                    </div>
+                </li>
+                <li>
+                    <p class="titulo_pie">Tripadvisor</p>
+                    <div class="content">
+                        <div id="TA_certificateOfExcellence658" class="TA_certificateOfExcellence">
+                            <ul id="oNUo1kHTT" class="TA_links bhMI1IGq6X">
+                                <li id="jxB6KjL5O5i" class="wpZL8yp9K"><a target="_blank"
+                                                                          href="http://www.tripadvisor.es/Restaurant_Review-g1064295-d6437773-Reviews-Pizzeria_Gio-Arenys_de_Mar_Catalonia.html"><img
+                                        src="http://www.tripadvisor.es/img/cdsi/img2/awards/CoE2015_WidgetAsset-14348-2.png"
+                                        alt="TripAdvisor" class="widCOEImg" id="CDSWIDCOELOGO"/></a></li>
+                            </ul>
+                        </div>
+                        <script src="http://www.jscache.com/wejs?wtype=certificateOfExcellence&amp;uniq=658&amp;locationId=6437773&amp;lang=es&amp;year=2015&amp;display_version=2"></script>
+                    </div>
+                </li>
+                <li class="last">
+                    <p class="titulo_pie">Contact info</p>
+                    <div class="content">
+                        <p><i class="fa fa-map-marker marginright"></i>N-II, km.658, 08350 Arenys de Mar</p>
+                        <p><i class="fa fa-phone marginright"></i>93 792 41 34</p>
+                        <p><i class="fa fa-envelope marginright"></i><a href="mailto:info@giopizzeria.com">info@giopizzeria.com</a>
+                        </p>
+                        <p><i class="fa fa-globe marginright"></i>giopizzeria.com</p>
+                    </div>
+                </li>
+            </ul>
+        </div>
+    </div>
+    <div id="pie_copyright">
+        <div class="cont-pie_copyright">
+
+            <ul class="enlaces">
+                <li><a href='/es/aviso-legal-lopd.html'>Aviso Legal</a></li>
+                <li><a href='/es/aviso-legal-lopd.html'>LOPD</a></li>
+                <li><a href='/es/cookies.html'>Política de Cookies</a></li>
+                <li><a href="http://www.actialia.com/" target="_blank">Diseño Web Actialia</a> |
+                    <a href="http://www.grupoactialia.com/" target="_blank">Grupo Actialia</a></li>
+                </a>
+            </ul>
+
+            <div class="copyright"><span> Copyright © 2015 Gió Pizzeria Restaurante en Arenys de Mar. Todos los derechos reservados</span>
+            </div>
+        </div>
+    </div>
+
+
+</div><!-- engloba -->
+<script type="text/javascript">
+
+    var slider_cl = new MasterSlider();
+    slider_cl.setup('masterslider_cl', {
+        loop: true,
+        width: 240,
+        height: 268,
+        speed: 20,
+        view: 'focus',
+        autoplay: true,
+        space: 35,
+        viewOptions: {centerSpace: 1.6}
+    });
+    slider_cl.control('arrows');
+
+</script>
+
+<div class="aceptar_cookies">
+    <div>
+        <p>Utilizamos cookies propias y de terceros para ofrecer nuestros servicios, recoger información estadística e
+            incluir publicidad. Si continúa navegando, acepta su instalación y uso. Puede cambiar la configuración u
+            obtener más información en nuestra <a rel="nofollow" href="/es/cookies.html">política de cookies</a>. <input
+                    type="button" value="Aceptar" onClick="aceptar_cookies();"/></p>
+    </div>
+</div>
+<div id="telefono_reserva">
+    <img src="/images/icon-phone.png" alt="Télefono Gio Pizzeria"><span>93 792 41 34</span>
+</div>
+</body>
+</html>
+
+
+
+
+
+
+
