@@ -214,17 +214,17 @@ body{
 	text-decoration:none;
 	color: #a2a2a2;
 }
-#links_cr{
+#inks_cr{
 	margin-top: 30px;
 	float:right;
 }
 
-#links_pie{
+#inks_pie{
 	margin-top:8px;
 	float:left;
 }
 
-#links_social{
+#inks_social{
 	width:280px;
 	float:left;
 }
@@ -275,7 +275,7 @@ body{
 	margin-top: 0px;
 }
 
-#logo{
+#ogo{
 	width:325px !important;
 }
 
@@ -348,35 +348,35 @@ body{
 	text-shadow: 1px 1px #000;
 }
 
-#lista_banderas li{
+#ista_banderas li{
 	display:inline;
 	list-style:none;
 	padding:0 4px;
 }
 
-#lista_banderas li:last-child{
+#ista_banderas li:last-child{
 	border-right:0;
 }
 
-#lista_banderas{
+#ista_banderas{
     float: right;
     padding: 8px 0px 5px 23px;
 }
 
-#lista_social li{
+#ista_social li{
 	display:inline;
 	list-style:none;
 }
 
-#lista_social li a img{
+#ista_social li a img{
 	width:20px;
 }
 
-#lista_social{
+#ista_social{
 	float: right;
 }
 
-#lista_social a{
+#ista_social a{
 	color:white;
 	margin-right: 10px;     
 	font-size: 16px;     vertical-align: text-bottom;
@@ -593,23 +593,23 @@ body{
 }   
 
 
-#lista_banner{
+#ista_banner{
 	padding:0px;
 	margin:0px;
 	list-style:none;
 }
 
-#lista_banner li{
+#ista_banner li{
 	margin-top:10px;
 }
-#lista_banner li:first-child{
+#ista_banner li:first-child{
 	margin-top:25px;
 }
-#lista_banner li:last-child{
+#ista_banner li:last-child{
 	margin-bottom:25px;
 }
 
-#lista_banner img{
+#ista_banner img{
 	width:240px;
 }
 
@@ -3884,7 +3884,7 @@ border-radius:0;}
 	z-index: 1;
 }
 
-span#lopd_check{
+span#opd_check{
 	font-size: 10px;
 }
 
@@ -4089,7 +4089,7 @@ form#item {
 	clear:both;
 }
 
-#logo_texto{
+#ogo_texto{
 	margin-top:5px;
 }
 
